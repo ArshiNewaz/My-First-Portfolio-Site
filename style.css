@@ -1,0 +1,90 @@
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+/* General Styles */
+body{
+  font-family: 'ubuntu', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  font-size: 1.7rem;
+  line-height: 1.7;
+}
+
+/* Header */
+header .logo {
+  color: white;
+  width: 100px;
+  float: left;
+}
+
+header nav{
+  float: right;
+  padding: 40px 0px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+
+/* Footer */
+.contact {
+  background-color: lightblue;
+  font-size: 3px;
+  text-align: center;
+}
+
+/* Homepage */
+.top-banner {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-image: url('https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/17309633_10212388820904763_417279910998870656_n.jpg?oh=b7c12f3ad0ab9a9e180a7775411dcef3&oe=5953C07F');
+  background-position: center;
+  background-size: contain;
+  min-height: 100vh;
+}
+
+.top-banner-content{
+  text-align: center;
+  margin: 75vh 30vw;
+  padding: 2vh 2vw;
+  background-color: rgba(152, 83, 83, 0.5);
+  color: white;
+}
+
+.arshitravels{
+  background-color: pink;
+  background-position: center;
+  font-size: 15px;
+}
+
+.travel{
+  text-align: center;
+  font-size: 30px;
+}
+
+#envelope {
+  font-size: 15px;
+}
+
+.col-8 {
+  font-size: 15px;
+}
+
+.fa.fa-tint {
+  color: blue;
+}
